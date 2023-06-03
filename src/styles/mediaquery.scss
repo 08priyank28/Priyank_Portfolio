@@ -1,0 +1,387 @@
+@media screen and (max-width: 1367px) {
+  nav {
+    padding: 0 $p_md;
+  }
+
+  .my_img{
+    margin-top: -20rem;
+  }
+  #home {
+    height: 100vh;
+    > section {
+      &:first-of-type {
+        padding-left: $p_md;
+        > div aside {
+          width: 85%;
+        }
+      }
+    }
+  }
+
+  #work {
+    padding: 8rem $p_md;
+    height: 110vh;
+    > section {
+      > article {
+        height: 20rem;
+        width: 90%;
+      }
+      .workItem {
+        padding: 2rem;
+        height: 20rem;
+        > aside {
+          > p {
+            margin: 1rem;
+          }
+          > a {
+            margin: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  #services {
+    padding: $p_md;
+    > section {
+      height: 90%;
+    }
+  }
+  #contact > section > form {
+    > input,
+    > button {
+      font: 400 0.8rem $text1;
+      width: 50%;
+    }
+  }
+
+  footer {
+    padding-left: $p_md;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  nav {
+    padding: 0 $p_base;
+  }
+  .my_img{
+    margin-top: -20rem;
+  }
+  #home {
+    height: 110vh;
+    > section {
+      &:first-of-type {
+        padding-left: $p_base;
+        > div {
+          > h1 {
+            font: 900 3rem $text1;
+          }
+
+          aside {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  #work {
+    padding: 8rem $p_base;
+  }
+
+  #services {
+    padding: $p_base_inverse;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    padding: 0 $p_sm;
+    > h2 {
+      font-size: 1.4rem;
+    }
+    > div {
+      gap: 1rem;
+    }
+  }
+
+  #home {
+    > section {
+      &:first-of-type {
+        padding-left: $p_sm;
+        > div {
+          > div {
+            gap: 2rem;
+            width: 100%;
+          }
+          aside {
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+
+  .home3{
+    >div{ 
+      h1{
+        font-size:  1.8rem;
+        border-bottom: 1px solid black;
+        text-align: center;
+        width: fit-content;
+      }
+      p{
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  #work {
+    padding: 8rem $p_zero;
+    > section {
+      > article {
+        height: 25rem;
+      }
+      .workItem {
+        height: 25rem;
+      }
+    }
+  }
+
+  #services {
+    padding: $p_sm_inverse;
+    height: 120vh;
+  }
+
+  #contact > section > form {
+    > h2 {
+      font: 100 2.3rem $text2;
+    }
+    > input,
+    > button {
+      width: 65%;
+    }
+  }
+
+  footer {
+    padding-left: $p_zero;
+    grid-template-columns: 1fr;
+    > div {
+      width: 100%;
+      border: none;
+      p {
+        width: 50%;
+        margin: 2rem auto;
+      }
+    }
+    > a {
+      margin: 1rem;
+    }
+  }
+  .my_img{
+    margin-top: -20rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .my_img{
+    margin-top: -20rem;
+  }
+  .home3 {
+    height: 100vh;
+    > div {
+      border-radius:100px;
+      height: 120vh;
+    }
+  }
+}
+
+@media screen and (max-width: 786px) {
+  nav {
+    > div,
+    > a {
+      display: none;
+    }
+  }
+  .my_img{
+    margin-top: -20rem;
+  }
+  .navBtn {
+    display: block;
+  }
+  .home3 {
+    height: 100vh;
+    > div {
+      border-radius:100px;
+      height: 120vh;
+    }
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .my_img{
+    margin-top: 5rem;
+  }
+  
+  .home3 {
+    height: 100vh;
+    margin-top: 50px;
+    background-color: red;
+    > div {
+      padding: 0;
+      width: 100%;
+      border-radius:0;
+      height: 100%;
+      h1{
+        font-size: 1.2rem;
+      }
+      p{
+        font-size: 0.8rem;
+        font-weight: 400;
+      }
+    } 
+  }
+  #home {
+    flex-direction: column-reverse;
+    
+    > section {
+      &:first-of-type {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+        > div {
+          border: none;
+          padding-top: 3rem;
+          > h1 {
+            font: 900 2.5rem $text1;
+          }
+          > div {
+            flex-direction: column;
+          }
+        }
+      }
+      
+      &:last-of-type {
+        border: none;
+      }
+    }
+    
+    > svg {
+      display: none;  
+    }
+
+  }
+  
+  #work {
+    > section {
+      > article {
+        width: 100%;
+        height: 30vmax;
+      }
+      .workItem {
+        height: 30vmax;
+        box-shadow: 0 0 5px $color1;
+        > aside {
+          padding: 1rem;
+
+          > h3 {
+            margin: 1rem;
+          }
+
+          > p {
+            letter-spacing: 0;
+            line-height: unset;
+            margin: 0%;
+            font-size: 0.75rem;
+          }
+
+          > a {
+            padding: 0.4rem 0.7rem;
+            font-size: 0.7rem;
+            margin: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  #timeline {
+    .timelineBox::after {
+      left: 31px;
+    }
+
+    .timelineItem {
+      width: 100%;
+      padding-left: 5rem;
+      padding-right: 2rem;
+    }
+
+    .rightTimeline {
+      left: 0%;
+    }
+    .leftTimeline,
+    .rightTimeline {
+      &::after {
+        left: 15px;
+      }
+    }
+  }
+
+  #services {
+    height: 150vh;
+    > section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow-y:scroll;
+      overflow-x: hidden;
+      &::-webkit-scrollbar{
+        display: none;
+      }
+      >div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+        height: 40vh;
+
+        >img{
+          height: 30px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+
+  #contact {
+    grid-template-columns: 1fr;
+    > aside {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 385px){
+  #services{
+    span{
+      display: none;
+    }
+  }
+  .home3{
+    >div{
+      overflow-y: auto;
+      h1{
+        padding-top: 20rem  ;
+        font-size: 1.58rem;
+      }
+      &::-webkit-scrollbar{
+        display: none;
+      }
+    }
+  }
+}
