@@ -22,9 +22,14 @@ const Work = () => {
                 <aside>
                   <h3>{i.title}</h3>
                   <p>{i.description}</p>
-                  <a target={"blank"} href={i.url}>
-                    View Demo
-                  </a>
+                  <div className="btns">
+                    <a target={"blank"} href={i.url}>
+                      View Demo
+                    </a>
+                    <a target={"blank"} href={i.code}>
+                      Source Code
+                    </a>
+                  </div>
                 </aside>
               </div>
             ))}

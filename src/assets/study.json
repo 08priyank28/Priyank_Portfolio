@@ -1,0 +1,33 @@
+{
+    "items": [
+      {
+        "year": "2018",
+        "title": "SSC",
+        "achievement": "Secured 3rd Rank In District",
+        "place":"SMT. S. P. Shah Highschool , Mahudha"
+    },
+    {
+        "year": "2020",
+        "title": "HSC",
+        "achievement": "Secured 3rd Rank In District",
+        "place":"SMT. S. P. Shah Highschool , Mahudha"
+      },
+      {
+        "year": "2020-2024",
+        "title": "B.Tech",
+        "achievement": "CPI : 9.26",
+        "place" :"Birla Vishvakarma Mahavidyalaya , Gujarat"
+      },
+      {
+        "title":"Flutter Developer Intern",
+        "year":"2022",
+        "place":"Narayan Infotech"
+      },
+      {
+        "title":"React Js Intern",
+        "year":"2023",
+        "place":"Tatvsoft"
+      }
+    ]
+  }
+  

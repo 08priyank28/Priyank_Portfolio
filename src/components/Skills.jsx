@@ -73,7 +73,7 @@ const Services = () => {
           initial={animations.right}
         >
           <img src={sass} alt="SASS" />
-          <span>SASS</span>
+          <span>SCSS</span>
         </motion.div>
         <motion.div
           className="serviceBox6"
